@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Epilogue, serif;
+    font-size: 18px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+@media only screen and (min-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        max-width: 90vw;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        background-color: lightslategray;
+        align-items: center;
+        justify-content: center;
+    }
+    ul{
+        color:  rgb(8, 8, 83);
+        font-size: 1em;
+    }
+    .list-1{
+        display: flex;
+        flex-direction: row;
+    }
+    .navbar .logo{
+        margin-right: 4vw;
+        color: rgb(8, 8, 83);
+    }
+    .login{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30vw;
+    }
+    .login p{
+        margin-right: 2vw;
+        font-size: 1em;
+        color: rgb(8, 8, 83);
+    }
+    .login button{
+        background-color:  rgb(8, 8, 83);
+        padding: 0.5vh 2vw;
+        font-size: 1em;
+        color:  yellow;
+        border: none;
+        border-radius: 8px;
+    }
+    ul li{
+        padding-right: 3vw;
+    }
+    nav ul{
+        list-style: none;
+    }
+    h1{
+        font-size: 3.5em;
+        width: 40vw;
+        margin-bottom: 5vh;
+    }
+    main{
+        margin-top: 3vh;
+        margin-left: 10vw;
+    }
+    .hero p{
+        font-size: 1em;
+        color: hsl(0, 0%, 41%);
+        margin-bottom: 4vh;
+        width: 30vw;
+        line-height: 1.6;
+    }
+    .hero button{
+        padding: 7px 20px;
+        border-radius: 8px;
+        margin-bottom: 7vh;
+        border: none;
+        background-color: rgb(8, 8, 83);
+        color: yellow;
+    }
+    .hero{
+        width: 400px;
+        
+    }
+    .image{
+        height:70vh;
+        /* width: 450px; */
+        margin-left: 150px;
+        max-width: 36vw;
+    }
+    .images{
+        display: block;
+    
+    }
+}
+@media only screen and (max-width: 799px ) {
+    
+}

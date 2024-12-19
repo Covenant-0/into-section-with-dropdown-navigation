@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img src="images/logo.svg" class="logo" >
+      <ul class="list-1">
+        <li>Features<img src="images/icon-arrow-down.svg" id="arrow-down" onclick="changeImage()"> </li>
+        <li>Company</li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+      <div class="login">
+        <p>Login</p>
+        <button>Register</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <section class="hero"> 
+        <h1>Make remote work</h1>
+  
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+      
+        <button>Learn more</button>
+        <div class="images">
+          <img src="images/client-databiz.svg">
+          <img src="images/client-audiophile.svg">
+          <img src="images/client-meet.svg">
+          <img src="images/client-maker.svg">
+        </div>
+      </section>
+      <section class="images">
+        <picture>
+          <source media="(max-width: 799px)" srcset="images/image-hero-mobile.png">
+          <source media="(min-width: 800px)" srcset="images/image-hero-desktop.png">
+          <img src="images/image-hero-desktop.png" class="image" alt="image of a man">
+        </picture>
+      </section>
+    </div>  
+  </main>
+  <footer>
+    <div class="attribution">
+      <a href="github.com/covenant-0">©2024 Ogunyemi Oluwatomilola Covenant</a>.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
