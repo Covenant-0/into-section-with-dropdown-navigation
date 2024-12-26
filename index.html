@@ -14,41 +14,54 @@
   <header>
     <nav class="navbar">
       <img src="images/logo.svg" class="logo" >
+      <img src="images/icon-menu.svg" class="menu">
+      <div class="menu-list">
       <ul class="list-1">
-        <li>Features<img src="images/icon-arrow-down.svg" id="arrow-down" onclick="changeImage()"> </li>
-        <li>Company</li>
+        <li>Features<img src="images/icon-arrow-down.svg" class="arrow-down"></li>
+          <div class="dropdown">
+            <li><img src="images/icon-todo.svg">Todo list</li>
+            <li><img src="images/icon-calendar.svg">Calendar</li>
+            <li><img src="images/icon-reminders.svg">Reminders</li>
+            <li><img src="images/icon-planning.svg">Planning</li>
+          </div>
+        <li>Company<img src="images/icon-arrow-down.svg" class="company-arrow-down2"></li>
+          <div class="company-dropdown">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </div>
         <li>Careers</li>
         <li>About</li>
       </ul>
       <div class="login">
         <p>Login</p>
-        <button>Register</button>
+        <button class="register">Register</button>
       </div>
     </nav>
   </header>
   <main>
     <div class="container">
-      <section class="hero"> 
+      <div class="hero"> 
         <h1>Make remote work</h1>
   
         <p>Get your team in sync, no matter your location. Streamline processes, 
           create team rituals, and watch productivity soar.</p>
       
-        <button>Learn more</button>
+        <button class="more">Learn more</button>
         <div class="images">
           <img src="images/client-databiz.svg">
           <img src="images/client-audiophile.svg">
           <img src="images/client-meet.svg">
           <img src="images/client-maker.svg">
         </div>
-      </section>
-      <section class="images">
+      </div>
+      <div class="image">
         <picture>
           <source media="(max-width: 799px)" srcset="images/image-hero-mobile.png">
           <source media="(min-width: 800px)" srcset="images/image-hero-desktop.png">
           <img src="images/image-hero-desktop.png" class="image" alt="image of a man">
         </picture>
-      </section>
+      </div>
     </div>  
   </main>
   <footer>
